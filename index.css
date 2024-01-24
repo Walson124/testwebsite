@@ -1,0 +1,20 @@
+html, body {
+    margin: 0%;
+    width: 100%;
+    height: 100%;
+    overflow-x: none;
+    overflow-y: none;
+}
+
+.canvas {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+.main_object {
+    position: fixed; /* fixed to viewport */
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
